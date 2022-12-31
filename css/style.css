@@ -22,12 +22,7 @@ main{
     grid-area: main;
 }
 
-aside{
-    padding: 5% 10%;
-    grid-area: aside;
-    padding-top:40px;
 
-}
 
 footer{
     height:20px;
@@ -417,14 +412,7 @@ button:hover{
     cursor: pointer;
 }
 
-aside h3{
-    color:#006151;
-    font-weight: 600;
-}
 
-aside li{
-    float:none;
-}
 
 
   
@@ -510,14 +498,6 @@ aside li{
 
 /* for desktop */
 @media all and (min-width: 992px){
-    body {
-        grid-template-columns: 4fr 1fr;
-        grid-template-areas:
-          "header header"
-          "main aside"
-          "footer footer";
-    }
-
     .gallery{
        justify-content: flex-start; 
     }
